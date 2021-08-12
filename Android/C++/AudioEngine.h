@@ -26,6 +26,3 @@ private:
     double phase_ = 0.0;
     double phaseIncrement_ = 0.0;
 };
-
-
-#endif //PART1_AUDIOENGINE_H
