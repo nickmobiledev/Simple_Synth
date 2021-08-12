@@ -37,15 +37,7 @@ Java_com_example_wavemaker_MainActivity_updateFrequency(JNIEnv *env, jobject thi
 }
 JNIEXPORT void JNICALL
 Java_com_example_wavemaker_MainActivity_addEngine(JNIEnv *env, jobject thiz) {
-//    for(int i = 0; i < audioEngineListSize; i++) {
-//        audioEngines[i] = new AudioEngine();
-//        audioEngines[i]->start(0);
-//        audioEngines[i]->setToneOn(false);
-//    }
     audioEngines[audioEngineListSize] = new AudioEngine();
-//    audioEngines[audioEngineListSize]->start(0);
-//    audioEngines[audioEngineListSize]->setToneOn(false);
-//    audioEngines[audioEngineListSize] = new AudioEngine();
     audioEngineListSize++;
 }
 }
